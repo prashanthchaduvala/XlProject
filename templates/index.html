@@ -1,0 +1,35 @@
+
+<html>
+<body>
+<center><h3>Upload Your File</h3></center>
+{% if message %}
+{% for message in message %}
+{#<div class="alert alert-{{ message.tags }}" role="alert">#}
+{#    <p{% if message.tags %} class=""{% endif %}>{{ message }}</p>#}
+{#</div>#}
+    <span style='color: #FF0000;'>{{ message }}</span>
+{% endfor %}
+{% endif %}
+
+<form action="{% url 'save' %}" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+<table align="center" border="2" bgcolor="#a9a9a9">
+    <tr><th>Upload file</th>
+        <th><input type="file" name="xlfile" required accept=".xlsx"></th>
+    </tr>
+    <tr>
+        <th colspan="2"><button type="submit">Save</button> </th>
+    </tr>
+</table>
+</form>
+
+</body>
+
+
+{% comment %}
+{% for x in data %}
+    {{ x.file }}
+    <a href="{{ x.file.url }}">Download csv file</a>
+{% endfor %}
+</html>
+{% endcomment %}

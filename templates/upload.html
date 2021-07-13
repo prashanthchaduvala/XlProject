@@ -1,0 +1,23 @@
+{% if messages %}
+{% for message in messages %}
+<div class="alert alert-{{ message.tags }}" role="alert">
+    <p{% if message.tags %} class=""{% endif %}>{{ message }}</p>
+</div>
+
+{% endfor %}
+{% endif %}
+
+<form action="{% url 'simple' %}" enctype="multipart/form-data">
+    {% csrf_token %}
+    <inppload Excel file>
+    {% csrf_token %}
+<table align="center" border="2">
+    <tr><th>Upload file</th>
+        <th><input type="file" name="xlfile" required accept=".xlsx"></th>
+    </tr>
+    <tr>
+        <th colspan="2"><button type="submit">Save</button> </th>
+    </tr>
+</table>
+    </inppload>
+</form>

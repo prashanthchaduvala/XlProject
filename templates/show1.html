@@ -1,0 +1,15 @@
+<h1>XlFile</h1>
+
+<table align="center" bgcolor="#fff8dc" border="2">
+<tr>
+    <th>File Name</th>
+<th>Downaload</th>
+</tr>{% for x in data1 %}
+    <tr>
+        <th>
+            {{ x.file }}</th>
+    <th>
+        <a href="{{ x.file.url }}">View FIle</a>
+        </th>
+    </tr>{% endfor %}
+</table>

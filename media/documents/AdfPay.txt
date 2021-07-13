@@ -1,0 +1,36 @@
+		
+Get Started	Fill Mobile number >>>> Submit Button>>>  Show Message” Thanks for downloading app, link has been sent on your mobile , please download app “	The Message has been changed as requested
+	Text Massage for Mobile App  “Thank you for choosing ADFPAY as your preferred financial app, please click here “Vercheck”	
+Download App	On Submission of Details, please show message “  Thank you for Downloading app,  link to download app has been sent on your email id, please download app from there “	The Message has been changed as requested
+Retailer	Retailers	
+Country/State/City Data	to be updated through CSV	
+Join Community  and Partner	Sign Up form	Not Clear, Need more clarification in written
+	show this form in Community Application Received	
+	 >>>> Allocate this function to another employee whose name and id created through user management	
+	Show that Application in approval list ------------- to approve	
+	Show Documents Submitted >>>> View and Accept	Not Clear, Need more clarification in written
+	Show Application Date	
+	On Approval show User id and Password generated on approval and send mail to community member or partner for informing him that your application has been approved and here are login id and password	
+	Show Profile >>>>>>>>>>>>>> Update Profile >>> Change Password  and Image on update profile to upload	
+	Show Logout	Done
+	Email and Reminders need to be activated	New Requirement
+		
+mobile unique		
+country state city dropdown		"New Requirement 
+CSS was given with out drop down"
+"allow only .apk to upload for Android and 
+requirement extension  
+allow only .apk to upload for Android and 
+requirement extension  
+"		
+"allow only 1 app to be active
+ios and android
+link has to be activated
+and download should be allowed from the version made active"		New Requirement
+download date should be after downloading	This can only be done after integrated with mobile app. 	
+request approved automatic (Auto Approve)		New Requiremnet
+1 mobile 1 download	Very Complex process. Fronth end Mobile App should take care. We can discuss	New Requiremnet
+Users=downloads should come here (play store and app store)+ app link		
+1 email for 1 user		
+		
+All api's have to be linked		
